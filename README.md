@@ -203,8 +203,21 @@ CWC-Piechart/
 
 ---
 
+## Mitwirken
+
+Siehe [CONTRIBUTING.md](CONTRIBUTING.md) — Beiträge unterliegen zusätzlich zur
+[GNU General Public License v3.0](LICENSE) dem [Contributor License Agreement](.github/CLA.md).
+
+---
+
 ## Drittlizenzen
 
 | Bibliothek | Lizenz | Quelle |
 |---|---|---|
 | WebCC (webcc.min.js) | Siemens, Bestandteil von WinCC Unified | https://support.industry.siemens.com/cs/ww/de/view/109779176 |
+
+---
+
+## Lizenz
+
+[GNU General Public License v3.0](LICENSE)
