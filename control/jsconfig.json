@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "noEmit": true,
+    "noImplicitAny": false
+  },
+  "include": [
+    "*.js",
+    "js/*.d.ts"
+  ]
+}

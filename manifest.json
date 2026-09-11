@@ -1,0 +1,52 @@
+{
+    "mver": "1.2.0",
+    "control": {
+        "identity": {
+            "name": "PieChart",
+            "version": "1.0.0",
+            "displayname": "Pie Chart",
+            "type": "guid://8d53a129-5ed7-45ab-932c-f8272524ad3b",
+            "start": "./control/index.html"
+        },
+        "metadata": {
+            "author": "ThomasSchlangen",
+            "keywords": ["Pie", "Chart", "Donut"]
+        },
+        "contracts": {
+            "api": {
+                "methods": {},
+                "events": {
+                    "Ready": {
+                        "arguments": {},
+                        "description": "Fired when CWC is fully initialized"
+                    },
+                    "SegmentClicked": {
+                        "arguments": {
+                            "index": { "type": "number" },
+                            "label": { "type": "string" }
+                        },
+                        "description": "Fired when a segment is clicked"
+                    }
+                },
+                "properties": {
+                    "Segments": {
+                        "type": "string",
+                        "default": "[]"
+                    },
+                    "Title": {
+                        "type": "string",
+                        "default": ""
+                    },
+                    "ShowLegend": {
+                        "type": "boolean",
+                        "default": true
+                    },
+                    "CenterText": {
+                        "type": "string",
+                        "default": ""
+                    }
+                }
+            }
+        }
+    }
+}
