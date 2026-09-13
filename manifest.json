@@ -3,8 +3,9 @@
     "control": {
         "identity": {
             "name": "PieChart",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "displayname": "Pie Chart",
+            "icon": "./assets/piechart_logo.png",
             "type": "guid://8d53a129-5ed7-45ab-932c-f8272524ad3b",
             "start": "./control/index.html"
         },
